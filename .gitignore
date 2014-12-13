@@ -1,0 +1,13 @@
+.repo/
+.vagrant/
+Vagrantfile
+eleven-assets/
+eleven-client/
+eleven-fixtures/
+eleven-gsjs/
+eleven-http-api/
+eleven-mobile/
+eleven-server/
+eleven-throwaway-server/
+eleven-utilities/
+eleven-web/
