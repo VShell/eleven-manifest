@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<manifest>
+  <remote fetch="ssh://git@git.elevengiants.com:41012/eleven/" name="gitlab"/>
+  <remote fetch="https://github.com/ElevenGiants/" name="github"/>
+  <default remote="gitlab" revision="master"/>
+
+  <project name="eleven-utilities">
+    <copyfile src="vagrant/Vagrantfile" dest="Vagrantfile"/>
+  </project>
+  <project name="eleven-throwaway-server"/>
+  <project name="eleven-fixtures"/>
+  <project name="eleven-assets"/>
+  <project name="eleven-web"/>
+  <project name="eleven-client"/>
+  <project name="eleven-mobile"/>
+
+  <project name="eleven-server" remote="github"/>
+  <project name="eleven-http-api" remote="github"/>
+  <project name="eleven-gsjs" remote="github"/>
+</manifest>
